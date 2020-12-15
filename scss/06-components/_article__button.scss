@@ -1,0 +1,12 @@
+.article__button {
+    float: right;
+    margin: 10px;
+    width: 10rem;
+    height: 3rem;
+    border: black solid 2px;
+    color: $color-white;
+    background-color: $color-red;
+    &:hover {
+        background-color: darken($color-red, 10%);
+    }
+}
